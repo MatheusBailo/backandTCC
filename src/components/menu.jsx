@@ -9,7 +9,7 @@ export const Menu = () => {
     const [open, setOpen] = useState(false);
 
     const goToMain = () => navigate('/AboutUs')
-    const goToInfo = () => navigate('/List')
+    const goToInfo = () => navigate('/list')
     const goToDaily = () => navigate('/DailyList')
 
 
